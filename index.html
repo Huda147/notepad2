@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real-Time Notepad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>📝 Real-Time Notepad</h2>
+
+  <div class="toolbar">
+    <label for="noteId">Note ID:</label>
+    <input type="text" id="noteId" value="note1">
+    <button id="loadBtn">Load</button>
+    <button id="downloadBtn">Export .txt</button>
+    <button id="themeToggle">🌙 Toggle Dark Mode</button>
+  </div>
+
+  <textarea id="note" placeholder="Start typing..."></textarea>
+
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-database-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
