@@ -45,7 +45,7 @@ A lightweight, real-time collaborative notepad that runs directly in the browser
 4. **Deploy to GitHub Pages**:
    - Push your code to GitHub
    - Go to repo settings → Pages → Select `main` branch → `/ (root)`
-   - Access the web app at `https://huda147.github.io/notepad2/`
+   - Access the web app at --> https://huda147.github.io/notepad2
 ---
 
 ## 🧠 Tips
